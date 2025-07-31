@@ -215,7 +215,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["https://qloo-hackathon-frontend.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
